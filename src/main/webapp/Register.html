@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register User</title>
+</head>
+<body>
+
+<h1>Register Here</h1>
+
+<form action="register" method="post">
+
+<table>
+
+<tr>
+<th>First Name: </th>
+<td><input type="text" name="firstname"></td>
+</tr>
+
+<tr>
+<th>Last Name: </th>
+<td><input type="text" name="lastname"></td>
+</tr>
+
+<tr>
+<th>Mobile: </th>
+<td><input type="tel" name="mobile" pattern="[0-9]{10}"></td>
+</tr>
+
+<tr>
+<th>Email: </th>
+<td><input type="email" name="email"></td>
+</tr>
+
+<tr>
+<th>Gender: </th>
+<td>
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female
+</td>
+</tr>
+
+<tr>
+<th>Date Of Birth: </th>
+<td><input type="date" name="dob"></td>
+</tr>
+
+<tr>
+<th>Create Password: </th>
+<td><input type="password1" name="password1"></td>
+</tr>
+
+<tr>
+<th>Confirm Password: </th>
+<td><input type="password2" name="password2"></td>
+</tr>
+
+<tr>
+<td><button type="reset">cancel</button></td>
+<td><button>Register</button></td>
+</tr>
+
+<tr>
+<a href="Login.html">Already have account?Click here to Login</a>
+<br><br>
+<a href="Register.html">Don't have account?Click here to Create</a>
+</tr>
+</table>
+</form>
+
+</body>
+</html>
